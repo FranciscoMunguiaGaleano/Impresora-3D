@@ -1,0 +1,148 @@
+
+ROM used:   4111/8192 (50%)
+            4726/8192 (58%) including unused fragments
+
+            0.6 Average locations per line
+            3.2 Average locations per statement
+
+RAM used:   309/1024 (30%) at main() level
+            351/1024 (34%) worst case
+
+Stack used: 12 worst case (6 in main + 6 for interrupts)
+Stack size: 16
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  410   268  21  Gripper.c
+  612     0   0  ..\..\..\..\Program Files (x86)\PICC\devices\16f1454.h
+  839   141  11  ..\..\..\..\Program Files (x86)\PICC\drivers\usb_cdc.h
+  149     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\pic16f_usb.h
+  328     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\usb_hw_layer.h
+  303     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\usb_desc_cdc.h
+ 1103     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\usb.h
+ 1177   237  18  ..\..\..\..\Program Files (x86)\PICC\drivers\usb.c
+ 1210   314  24  ..\..\..\..\Program Files (x86)\PICC\drivers\pic16f_usb.c
+  423   172  13  ..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   32    47   4  ..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+   28   112   9  ..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 6614  1291 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     22   1    1             @delay_ms1
+0     74   2    1   558  3.4  @I2C_WRITE_1
+0     17   0    0             @const688
+0     17   0    0    57  2.5  @const691
+0     33   1    0   125  3.0  @const694
+0     33   1    0   607  4.3  @const697
+0     68   2    0   610  3.8  @const700
+0      2   0    0   450  3.8  @const703
+0      9   0    0             @const706
+0     19   0    0             @const711
+0     45   1    0             @const715
+0     30   1    2   139  4.3  usb_tbe
+ Inline         0   113  1.9  usb_detach
+ Inline         0   136  2.2  usb_attach
+ Inline         0    16  1.0  usb_init_cs
+0     38   1    1   407  5.7  usb_task
+0     25   1    0    61  2.5  usb_init
+0    102   2    7  1092  5.4  usb_flush_in
+0     78   2   12   344  6.1  usb_put_packet
+0    106   3    7   914  5.0  usb_flush_out
+ Inline         2    66  2.7  usb_rx_packet_size
+ Inline         4   258  4.6  usb_stall_ep
+ Inline         4   266  4.6  usb_unstall_ep
+ Inline         4   373  6.0  usb_endpoint_stalled
+ Inline         1    94  2.7  usb_set_address
+ Inline        10  1794 11.5  usb_set_configured
+0     40   1    3   199  3.2  usb_disable_endpoint
+0     16   0    1    99  3.0  usb_disable_endpoints
+0      4   0    0    61  4.0  usb_clear_trn
+1   1168  28    0   518  4.4  usb_isr
+ Inline         0    43  2.0  usb_isr_sof
+ Inline         0   472  4.7  usb_isr_rst
+0     32   1    2   458  4.4  usb_init_ep0_setup
+ Inline         0    74  2.8  usb_isr_uerr
+ Inline         0    82  2.8  usb_isr_uidle
+ Inline         0   102  3.3  usb_isr_activity
+ Inline         0   151  3.9  usb_isr_stall
+0      5   0    1    30  1.7  usb_request_send_response
+0      3   0    0    22  1.2  usb_request_get_data
+0      3   0    0    22  1.2  usb_request_stall
+ Inline         2  3370  9.3  usb_isr_tok_dne
+0      6   0    0    29  1.9  usb_enumerated
+0     28   1    3   273  4.0  usb_token_reset
+0     40   1    3   274  5.9  usb_endpoint_is_valid
+0     45   1    1   212  3.1  usb_isr_tok_in_dne
+0    132   3    1   115  2.5  usb_isr_tok_out_dne
+ Inline         0   375  6.4  usb_isr_tok_setup_dne
+ Inline         0  1454  8.3  usb_isr_tkn_setup_StandardDevice
+ Inline         3   933  7.7  usb_isr_tkn_setup_StandardInterface
+ Inline         0   753  5.8  usb_isr_tkn_setup_StandardEndpoint
+ Inline         0  1088  8.7  usb_Get_Descriptor
+ Inline         0    76  1.8  usb_finish_set_address
+0    100   2    4   622  9.1  usb_copy_desc_seg_to_ep
+ Inline         0   477  6.1  usb_isr_tok_out_cdc_control_dne
+ Inline         0  1146  8.3  usb_isr_tkn_cdc
+ Inline         0   174  3.6  usb_isr_tok_out_cdc_data_dne
+ Inline         0    70  0.7  usb_isr_tok_in_cdc_data_dne
+0     23   1    0   106  2.9  usb_cdc_flush_tx_buffer
+0     41   1    4   280  2.3  usb_cdc_init
+0      9   0    0    59  2.3  usb_cdc_get_discard
+0     34   1    2   227  5.1  usb_cdc_getc
+ Inline         4   228  4.8  _usb_cdc_putc_fast_noflush
+ Inline         1    52  2.0  usb_cdc_putc_fast
+0     52   1    1    80  3.1  usb_cdc_putc
+0     59   1    0    74  1.2  Esclavo_1
+0     64   2    0    94  1.3  Esclavo_11
+0     59   1    0    74  1.2  Esclavo_2
+0     64   2    0    94  1.3  Esclavo_21
+0     59   1    0    74  1.2  Esclavo_3
+0     64   2    0    94  1.3  Esclavo_31
+0     59   1    0    74  1.2  Esclavo_4
+0     64   2    0    94  1.3  Esclavo_41
+1     65   2    0    74  1.2  Esclavo_5
+1     72   2    0    94  1.3  Esclavo_51
+1     65   2    0    74  1.2  Esclavo_6
+1     72   2    0    94  1.3  Esclavo_61
+2    631  15    1  6496  8.9  MAIN
+0      7   0    0             @const1035
+0     62   2    3             @PSTRINGC7_593
+0      9   0    0             @const1037
+0      7   0    0             @const1038
+0      8   0    0             @const1039
+0      8   0    0             @const1040
+0     10   0    0             @const1041
+0      8   0    0             @const1042
+0      7   0    0             @const1043
+0      7   0    0             @const1044
+0      6   0    0             @const1045
+0      4   0    0             @const1046
+0      5   0    0             @const1047
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               72
+    Statements              1291
+    Comments                5182
+    Volume (V)              57171
+    Difficulty (D)          275.9
+    Effort to implement (E) 15772508
+    Time to implement (T)   243 hours, 24 minutes
+    Est Delivered Bugs (B)  21
+    Cyclomatic Complexity   148
+    Maintainability (MI)    116
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     3  0  
+00003-00003     0  1  
+00004-00043    64  0  
+00044-007FF  1971  9  
+00800-00FFF  1442  606  
+01000-017FF   631  1417  
+01800-01FFF     0  2048  
+
+
+

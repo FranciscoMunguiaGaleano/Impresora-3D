@@ -1,0 +1,12 @@
+ÀÄEsclavo_4
+   ÃÄMAIN  0/58  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÀÄpulso  0/49  Ram=0
+   ³     ÃÄstop  0/48  Ram=0
+   ³     ÀÄstop  0/48  Ram=0
+   ÀÄintrr_i2c  0/295  Ram=3
+      ÀÄParametros  (Inline)  Ram=0
+         ÃÄ@MUL3232  0/63  Ram=13
+         ÃÄ@MUL3232  0/63  Ram=13
+         ÃÄ@MUL3232  0/63  Ram=13
+         ÀÄ@MUL3232  0/63  Ram=13

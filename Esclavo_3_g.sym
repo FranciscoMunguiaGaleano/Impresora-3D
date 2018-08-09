@@ -1,0 +1,123 @@
+004-005 @READ_PACKED_MEMORY.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+004-005 @WRITE_PACKED_MEMORY.P3
+004-005 @WRITE_PROGRAM_MEMORY8.P4
+006-007 @READ_PACKED_MEMORY.P1
+006-007 @WRITE_PACKED_MEMORY.P2
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     num
+025     n
+026     estado
+027     i
+028     begin
+029     eject
+02A     p
+02B     t
+02C     casa
+02D-030 tiempo
+031-034 pasos
+035-038 buffer
+039-03C j
+03D     @I2C_STATE
+040-05F array
+060-063 k
+064-067 direccion
+068     Home.@SCRATCH1
+068     MAIN.@SCRATCH1
+069     intrr_i2c.incoming
+06A-06D @MUL3232.P1
+06A     intrr_i2c.@SCRATCH1
+06B     intrr_i2c.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+0A0-0A3 @MUL3232.P1
+0A4     @MUL3232.@SCRATCH1
+0A5     @MUL3232.@SCRATCH2
+0A6     @MUL3232.@SCRATCH3
+0A7     @MUL3232.@SCRATCH4
+0A8     @MUL3232.@SCRATCH5
+0FF     @INTERRUPT_AREA
+17F     @INTERRUPT_AREA
+191-192 @READ_PROGRAM_MEMORY8.P1
+191-192 @WRITE_PROGRAM_MEMORY8.P2
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+613.5   PWM1OUT
+616.5   PWM2OUT
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+000021  @MUL3232
+000054  intrr_i2c
+0000B6  Parametros
+0001A0  stop
+0001D0  pulso
+000201  Home
+00027D  MAIN
+00027D  @cinit1
+000297  @cinit2
+
+Project Directory:
+    C:\Users\Francisco\Google Drive\Impresora\
+
+Project Files:
+    Esclavo_3_g.c                                           [26-jul.-17 20:13  CRC=8137854B]
+    ..\..\..\..\Program Files (x86)\PICC\devices\16f1454.h  [12-nov.-13 14:35  CRC=7792CD52]
+
+Source signature=705D1FEF
+
+Units:
+    Esclavo_3_g (main)
+
+Compiler Settings:
+    Processor:      PIC16F1454
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Enhanced 16:    Yes
+
+Output Files:
+    XREF file:   Esclavo_3_g.xsym
+    Errors:      Esclavo_3_g.err
+    Ext Symbols: Esclavo_3_g.esym
+    INHX8:       Esclavo_3_g.hex
+    Symbols:     Esclavo_3_g.sym
+    List:        Esclavo_3_g.lst
+    Debug/COFF:  Esclavo_3_g.cof
+    Project:     Esclavo_3_g.ccspjt
+    Call Tree:   Esclavo_3_g.tre
+    Statistics:  Esclavo_3_g.STA

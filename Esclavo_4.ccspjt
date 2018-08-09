@@ -1,0 +1,64 @@
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+Library=
+LinkerScript=
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=Esclavo_4.hex
+Development_Mode=
+Processor_Text=PIC16F1454
+ToolSuite=CCS
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=Esclavo_4.c
+[Esclavo_4.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=Esclavo_4.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[CompilerVersion]
+Fixed=
+[Opened Files]
+1=Esclavo_4.c
+2=
+3=
+t1=9
+Count=1
+[Units]
+Count=1
+1=Esclavo_4 (main)
+
+[ProjectLog]
+Days=1
+D1=05-09-2017
+D1_L=2
+D1_L1=[64574]Project Opened.
+D1_L2=[64593]Project Closed.

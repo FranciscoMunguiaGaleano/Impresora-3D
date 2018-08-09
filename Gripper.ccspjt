@@ -1,0 +1,67 @@
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+Library=
+LinkerScript=
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=Gripper.hex
+Development_Mode=
+Processor_Text=PIC16F1454
+ToolSuite=CCS
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=Gripper.c
+[Gripper.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=Gripper.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[CompilerVersion]
+Fixed=
+[Opened Files]
+1=Gripper.c
+2=Esclavo_1.c
+3=
+4=Gripper.c
+5=
+[Units]
+Count=1
+1=Gripper (main)
+
+[ProjectLog]
+Days=2
+D1=05-09-2017
+D1_L=1
+D1_L1=[64671]Project Opened.
+D2=02-02-2018
+D2_L=2
+D2_L1=[63339]Project Opened.
+D2_L2=[63371]Project Closed.

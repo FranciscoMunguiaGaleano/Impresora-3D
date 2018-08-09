@@ -1,0 +1,216 @@
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=81
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=Esclavo_1.hex
+Development_Mode=
+Processor_Text=PIC16F1454
+ToolSuite=CCS
+CCSVersion=5.015
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=Esclavo_1.c
+
+[Esclavo_1.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Esclavo_1.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=Esclavo_1.c
+t1=93
+Count=2
+2=Esclavo_1.hex
+t2=1
+3=Esclavo_2.c
+t3=1
+4=
+
+[ProjectLog]
+Days=7
+D1=28-02-2017
+D1_L=3
+D1_L1=[77227]Project Closed.
+D1_L2=[77227]Project Opened.
+D1_L3=[77257]Started Editing.
+D2=01-03-2017
+D2_L=40
+D2_L1=[67210]Project Opened.
+D2_L2=[67218]Started Editing.
+D2_L3=[67648]Stopped Editing.
+D2_L4=[67687]Started Editing.
+D2_L5=[68538]Stopped Editing.
+TotalEdit=218
+TotalDebug=0
+D2_E=89
+D2_D=0
+D2_L6=[68554]Project Closed.
+D2_L7=[68781]Project Opened.
+D2_L8=[68794]Started Editing.
+D2_L9=[69407]Stopped Editing.
+D2_L10=[69420]Started Editing.
+D2_L11=[70891]Stopped Editing.
+D2_L12=[70891]Project Closed.
+D2_L13=[71091]Project Opened.
+D2_L14=[71102]Started Editing.
+D2_L15=[71354]Stopped Editing.
+D2_L16=[71354]Project Closed.
+D2_L17=[74607]Project Opened.
+D2_L18=[74618]Started Editing.
+D2_L19=[74865]Stopped Editing.
+D2_L20=[74865]Project Closed.
+D2_L21=[74931]Project Opened.
+D2_L22=[75186]Started Editing.
+D2_L23=[75715]Stopped Editing.
+D2_L24=[75715]Project Closed.
+D2_L25=[75878]Project Opened.
+D2_L26=[75935]Started Editing.
+D2_L27=[75945]Stopped Editing.
+D2_L28=[75947]Project Closed.
+D2_L29=[76452]Project Opened.
+D2_L30=[76459]Started Editing.
+D2_L31=[76977]Stopped Editing.
+D2_L32=[76977]Project Closed.
+D2_L33=[77339]Project Opened.
+D2_L34=[77354]Started Editing.
+D2_L35=[78198]Stopped Editing.
+D2_L36=[78198]Project Closed.
+D2_L37=[78452]Project Opened.
+D2_L38=[78587]Started Editing.
+D2_L39=[78715]Stopped Editing.
+D2_L40=[78715]Project Closed.
+D3=02-03-2017
+D3_L=40
+D3_L1=[47379]Project Opened.
+D3_L2=[47384]Started Editing.
+D3_L3=[48290]Stopped Editing.
+D3_E=88
+D3_D=0
+D3_L4=[48290]Project Closed.
+D3_L5=[48792]Project Opened.
+D3_L6=[48796]Started Editing.
+D3_L7=[48984]Stopped Editing.
+D3_L8=[48984]Project Closed.
+D3_L9=[49315]Project Opened.
+D3_L10=[49326]Started Editing.
+D3_L11=[49645]Stopped Editing.
+D3_L12=[49797]Started Editing.
+D3_L13=[49983]Stopped Editing.
+D3_L14=[49983]Project Closed.
+D3_L15=[50124]Project Opened.
+D3_L16=[50138]Started Editing.
+D3_L17=[51162]Stopped Editing.
+D3_L18=[51162]Project Closed.
+D3_L19=[51259]Project Opened.
+D3_L20=[51272]Started Editing.
+D3_L21=[52416]Stopped Editing.
+D3_L22=[52449]Started Editing.
+D3_L23=[52929]Stopped Editing.
+D3_L24=[52929]Project Closed.
+D3_L25=[53042]Project Opened.
+D3_L26=[53081]Started Editing.
+D3_L27=[53958]Stopped Editing.
+D3_L28=[53958]Project Closed.
+D3_L29=[54274]Project Opened.
+D3_L30=[54283]Started Editing.
+D3_L31=[54553]Stopped Editing.
+D3_L32=[54553]Project Closed.
+D3_L33=[55105]Project Opened.
+D3_L34=[55111]Started Editing.
+D3_L35=[55232]Stopped Editing.
+D3_L36=[55232]Project Closed.
+D3_L37=[55232]Project Opened.
+D3_L38=[55232]Project Closed.
+D3_L39=[55233]Project Opened.
+D3_L40=[55418]Project Closed.
+D4=14-03-2017
+D4_L=5
+D4_L1=[66895]Project Opened.
+D4_L2=[68128]Started Editing.
+D4_L3=[68543]Stopped Editing.
+D4_L4=[71425]Started Editing.
+D4_L5=[71726]Stopped Editing.
+D5=15-03-2017
+D5_L=2
+D5_L1=[78191]Project Opened.
+D5_L2=[78288]Project Closed.
+D6=16-03-2017
+D6_L=10
+D6_L1=[46799]Project Opened.
+D6_L2=[46953]Started Editing.
+D6_L3=[47511]Stopped Editing.
+D6_L4=[48241]Started Editing.
+D6_L5=[48972]Stopped Editing.
+D6_E=19
+D6_D=0
+D6_L6=[49399]Project Closed.
+D6_L7=[73888]Project Opened.
+D6_L8=[73912]Started Editing.
+D6_L9=[74632]Stopped Editing.
+D6_L10=[78600]Project Closed.
+D7=17-03-2017
+D7_L=16
+D7_L1=[63348]Project Opened.
+D7_L2=[63912]Started Editing.
+D7_L3=[64267]Stopped Editing.
+D7_L4=[64533]Started Editing.
+D7_L5=[65307]Stopped Editing.
+D7_L6=[65343]Started Editing.
+D7_L7=[65503]Stopped Editing.
+D7_E=22
+D7_D=0
+D7_L8=[65504]Project Closed.
+D7_L9=[65921]Project Opened.
+D7_L10=[65991]Started Editing.
+D7_L11=[66326]Stopped Editing.
+D7_L12=[66326]Project Closed.
+D7_L13=[66905]Project Opened.
+D7_L14=[67179]Started Editing.
+D7_L15=[67419]Stopped Editing.
+D7_L16=[67419]Project Closed.
+[Units]
+Count=1
+1=Esclavo_1 (main)
